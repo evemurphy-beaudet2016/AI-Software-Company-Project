@@ -234,6 +234,7 @@ GitHub Integration
 
 ## 🏗️ Architecture
 
+```text
 User
   ↓
 Chatbot
@@ -246,7 +247,7 @@ Project Manager Agent
   └── Documentation Agent
   ↓
 Dashboard + Database
-
+```
 ---
 
 ## 🚀 Long-Term Goal
