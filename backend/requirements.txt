@@ -1,0 +1,3 @@
+Functional requirements:
+- Welcome message
+- User welcome
