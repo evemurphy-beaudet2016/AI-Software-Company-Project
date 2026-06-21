@@ -108,22 +108,28 @@ npm install
 npm run dev
 ```
 
-### Then open:
+### Then open: http://localhost:5173
 
-http://localhost:5173
+## 🧠 Backend (FastAPI)
 
-🧠 Backend (FastAPI)
+### Status
+
+- FastAPI running ✔
+- SwaggerUI running ✔
+- uvicorn running ✔
+
+### Run backend
+```bash
 Run backend
 cd backend
 uvicorn main:app --reload
+```
 
-Then open:
+### Then open: http://localhost:8000/docs
 
-http://localhost:8000/docs
+## 🗄️ Database (PostgreSQL)
 
-🗄️ Database (PostgreSQL)
-
-Make sure PostgreSQL is running locally and your database is created before starting the backend.
+### Make sure PostgreSQL is running locally and your database is created before starting the backend.
 
 🔁 Full Stack Flow
 React (5173)
