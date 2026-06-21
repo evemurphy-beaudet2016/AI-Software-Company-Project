@@ -108,7 +108,7 @@ npm install
 npm run dev
 ```
 
-### Then open: http://localhost:5173
+#### Then open: http://localhost:5173
 
 ## 🧠 Backend (FastAPI)
 
@@ -125,100 +125,136 @@ cd backend
 uvicorn main:app --reload
 ```
 
-### Then open: http://localhost:8000/docs
+#### Then open: http://localhost:8000/docs
 
 ## 🗄️ Database (PostgreSQL)
 
 ### Make sure PostgreSQL is running locally and your database is created before starting the backend.
 
-🔁 Full Stack Flow
-React (5173)
-   ↓ fetch()
-FastAPI (8000)
-   ↓ SQL
-PostgreSQL
-💡 Notes
-Keep both frontend and backend running at the same time
-If CORS errors occur, ensure FastAPI has CORS middleware enabled
-Restart backend after any Python changes
-Tech Stack
-Component	Technology
-Frontend	React
-Backend	FastAPI, Python
-Agents	LangGraph
-LLM	OpenAI API or local models
-Database	PostgreSQL
-Memory	Chroma Vector Database
-Development Schedule
-Week 1
+## 🔁 Full Stack Flow
 
+---
+
+React (5173)
+↓ fetch()
+FastAPI (8000)
+↓ SQL
+PostgreSQL
+
+
+---
+
+## 💡 Notes
+
+- Keep both frontend and backend running at the same time  
+- If CORS errors occur, ensure FastAPI has CORS middleware enabled  
+- Restart backend after any Python changes  
+
+---
+
+## ⚙️ Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| Frontend | React |
+| Backend | FastAPI, Python |
+| Agents | LangGraph |
+| LLM | OpenAI API or local models |
+| Database | PostgreSQL |
+| Memory | Chroma Vector Database |
+
+---
+
+## 📅 Development Schedule
+
+### Week 1
 Chatbot with Memory
 
-User → LLM interaction
-Create projects
-Save data to database
-Generate requirements
-Week 2
+- User → LLM interaction  
+- Create projects  
+- Save data to database  
+- Generate requirements  
 
+---
+
+### Week 2
 Multi-Agent Workflow
-User → Project Manager → Architecture → Other Agents
 
-Week 3
+User → Project Manager → Architecture → Other Agents  
 
+---
+
+### Week 3
 UI Panels
 
-Chat window
-Requirements panel
-Architecture panel
-Activity feed
-Week 4
+- Chat window  
+- Requirements panel  
+- Architecture panel  
+- Activity feed  
 
+---
+
+### Week 4
 Project Workflows
 
-Scrum boards
-Task tracking
-Week 5
+- Scrum boards  
+- Task tracking  
 
+---
+
+### Week 5
 Developer Agent
 
-Week 6
+---
 
+### Week 6
 QA Agent
 
-Week 7
+---
 
+### Week 7
 Agent Conversations
 
-Week 8
+---
 
+### Week 8
 Long-Term Memory
 
-Week 9
+---
 
+### Week 9
 GitHub Integration
 
-Architecture
+---
+
+## 🏗️ Architecture
+
+
 User
- ↓
+↓
 Chatbot
- ↓
+↓
 Project Manager Agent
- ├── Requirements Agent
- ├── Architecture Agent
- ├── Developer Agent
- ├── QA Agent
- └── Documentation Agent
- ↓
+├── Requirements Agent
+├── Architecture Agent
+├── Developer Agent
+├── QA Agent
+└── Documentation Agent
+↓
 Dashboard + Database
-Long-Term Goal
+
+
+---
+
+## 🚀 Long-Term Goal
 
 Create an autonomous AI software company capable of:
 
-Receiving ideas from users
-Planning and organizing projects
-Designing architectures
-Writing code
-Testing applications
-Generating documentation
-Maintaining memory across conversations
-Collaborating through multiple specialized agents
+- Receiving ideas from users  
+- Planning and organizing projects  
+- Designing architectures  
+- Writing code  
+- Testing applications  
+- Generating documentation  
+- Maintaining memory across conversations  
+- Collaborating through multiple specialized agents
