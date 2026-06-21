@@ -133,16 +133,21 @@ uvicorn main:app --reload
 
 ## 🔁 Full Stack Flow
 
----
-
+```text
 React (5173)
-↓ fetch()
+  |
+  v
+fetch()
+  |
+  v
 FastAPI (8000)
-↓ SQL
+  |
+  v
+SQL
+  |
+  v
 PostgreSQL
-
-
----
+```
 
 ## 💡 Notes
 
@@ -229,20 +234,18 @@ GitHub Integration
 
 ## 🏗️ Architecture
 
-
 User
-↓
+  ↓
 Chatbot
-↓
+  ↓
 Project Manager Agent
-├── Requirements Agent
-├── Architecture Agent
-├── Developer Agent
-├── QA Agent
-└── Documentation Agent
-↓
+  ├── Requirements Agent
+  ├── Architecture Agent
+  ├── Developer Agent
+  ├── QA Agent
+  └── Documentation Agent
+  ↓
 Dashboard + Database
-
 
 ---
 
